@@ -1,0 +1,55 @@
+.description{
+    border: solid 2px black;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(249, 228, 232);
+}
+.con{
+    position: absolute;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: 35vw;
+    background-color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    border: solid 2px rgb(249, 228, 232);
+    height: 30px;
+    margin: 5px;
+}
+.box{
+   margin: 5px;
+   padding: 2px;
+   width: 30px;
+   height: 30px;
+   border: 2px solid black; 
+   display: flex;
+   justify-content: center;
+   background-color: lightpink;
+}
+ .box button{
+    background-color: rgb(249, 228, 232);
+    border: transparent;
+ }
+
+ .end{
+    border: solid 2px black;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(249, 228, 232);
+    margin-top: 300px;
+    height: 30px;
+ }
+
+ body{
+    background-color: rgb(125, 241, 110);
+ }
